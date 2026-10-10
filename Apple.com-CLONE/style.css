@@ -40,25 +40,33 @@
 
 .img {
     height: 500px;
-    background-size: contain;
-    background-repeat: repeat;
+    background-size: cover;
 }
 
 .luffy {
-    background-image: url(luffy.jpg);
+    background-image: url(box1.jpg);
 }
 
 .zorro {
-    background-image: url(zorro.jpg);
+    background-image: url(box2.jpg);
 }
 
 .sanji {
-    background-image: url(sanji.jpg);
+    background-image: url(box3.jpg);
 }
 
-.links pre {
+.links {
+    /* display: flex;
+    justify-content: center; */
     height: 400px;
-    width: 900px;
+    width: 100%;
     font-size: 0.5rem;
+    border: 2px solid black;
 
+}
+
+.footer-contents {
+    /* justify-content: center; */
+    font-size: 0.8rem;
+    
 }
