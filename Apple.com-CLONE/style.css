@@ -43,30 +43,58 @@
     background-size: cover;
 }
 
-.luffy {
+.box1 {
     background-image: url(box1.jpg);
 }
 
-.zorro {
+.box2 {
     background-image: url(box2.jpg);
 }
 
-.sanji {
+.box3 {
     background-image: url(box3.jpg);
 }
 
-.links {
-    /* display: flex;
-    justify-content: center; */
+/* .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 400px;
     width: 100%;
-    font-size: 0.5rem;
     border: 2px solid black;
 
 }
 
 .footer-contents {
-    /* justify-content: center; */
+    justify-content: center;
     font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
     
+} */
+
+.links {
+    margin-top: 20px;
+    height:800px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+ol {
+    /* display: flex; */
+    font-size: 0.8rem;
+    /* width: fit-content; */
+    width: 100%;          /* Takes up full width */
+  text-align: center;   /* Centers the inner text/items horizontally */
+  list-style-position: inside;
+}
+
+.footer-contents {
+    padding: 0px 10px 0px 10px;
+    /* justify-content: center; */
+    width: 800px;
+    font-size: 0.8rem;
 }
