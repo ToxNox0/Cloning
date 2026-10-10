@@ -1,2 +1,2 @@
-# Cloning
-Learning by cloning
+# Practice
+Practice repo.
